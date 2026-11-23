@@ -4,3 +4,31 @@
 @media(max-width:740px){.site-nav{height:80px}.site-nav nav{display:none}.nav-pill{font-size:.75rem}.hero{padding:45px 24px 0}.hero-grid{grid-template-columns:1fr}.hero h1{font-size:2.9rem}.science-art{max-width:490px;min-height:315px;margin:15px 0}.science-art svg{max-height:260px}.hero-metrics{margin-top:48px;grid-template-columns:1fr 1fr}.hero-metrics>div{padding:20px 10px!important}.hero-metrics>div:nth-child(3){grid-column:span 2;border-top:1px solid #ffffff27;border-left:0}.about{padding-top:75px;padding-bottom:70px;grid-template-columns:1fr;gap:18px}.theme-grid{grid-template-columns:1fr}.theme-tile{min-height:0}.featured-panel{grid-template-columns:1fr}.featured-right{min-height:230px}.work-grid{grid-template-columns:1fr}.closing{display:block}.closing>a{display:inline-block;margin-top:18px}.footer{flex-wrap:wrap;gap:10px}}
 @media(max-width:400px){.site-nav{padding:0 16px}.wordmark{font-size:.72rem}.mark{width:35px;height:35px}.nav-pill{padding:9px}.hero h1{font-size:2.5rem}.hero-metrics strong{font-size:1.3rem}.hero-metrics span{font-size:.76rem}.content-width{padding-left:17px;padding-right:17px}.featured-left{padding:30px 22px}.work-card{padding:20px}.work-bottom{align-items:flex-start;flex-direction:column}.venue{max-width:100%}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+
+/* Final CPP application alignment — research record, teaching, and curriculum */
+.experience,.teaching-section,.course-section{padding-bottom:95px}
+.record-grid,.teaching-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.record-card,.teaching-card{padding:28px 26px;background:#fff;border:1px solid var(--line);border-radius:13px;min-width:0}
+.record-marker,.experience-label{display:inline-block;font-size:.69rem;font-weight:800;letter-spacing:.12em;color:#087f79}
+.record-card h3,.teaching-card h3{font-family:Manrope,sans-serif;font-size:1.17rem;letter-spacing:-.035em;line-height:1.4;margin:16px 0 10px}
+.record-card p,.teaching-card p{color:#526a76;font-size:.9rem;line-height:1.75;margin:10px 0}
+.record-card strong,.teaching-card strong{color:#213f51}
+.record-note{margin-top:19px;font-size:.91rem;line-height:1.7;color:#526a76}
+.readiness-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:22px}
+.course-column{padding:28px 30px;background:white;border:1px solid var(--line);border-radius:13px}
+.course-letter{display:grid;place-items:center;width:43px;height:43px;border-radius:12px;color:#067d75;background:#e3f4f0;font-family:Manrope,sans-serif;font-weight:800}
+.course-column h3,.proposed-heading h3{font-family:Manrope,sans-serif;font-size:1.23rem;letter-spacing:-.03em;margin:17px 0}
+.course-column ul{padding-left:20px;margin:14px 0;color:#4c6471;font-size:.9rem;line-height:1.7}
+.course-column li{margin:8px 0}
+.course-column small{display:block;margin-top:20px;color:#71848f;line-height:1.6}
+.proposed-courses{background:#e9f2ef;border-radius:14px;padding:30px}
+.proposed-heading{display:flex;align-items:center;gap:16px;margin-bottom:22px}
+.proposed-heading h3{margin:0 0 5px}
+.proposed-heading p{margin:0;color:#58707a;font-size:.87rem}
+.proposed-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.proposed-grid article{padding:25px;background:#fff;border:1px solid #d7e5e1;border-radius:11px}
+.proposed-grid article span{color:#087e76;letter-spacing:.09em;font-weight:800;font-size:.69rem}
+.proposed-grid h4{font-family:Manrope,sans-serif;font-size:1.1rem;letter-spacing:-.03em;line-height:1.38;margin:14px 0 10px}
+.proposed-grid p{font-size:.9rem;line-height:1.7;color:#566d78;margin:0}
+@media(max-width:1000px){.record-grid,.teaching-grid{grid-template-columns:1fr 1fr}.site-nav nav{gap:16px;font-size:.82rem}}
+@media(max-width:740px){.record-grid,.teaching-grid,.readiness-grid,.proposed-grid{grid-template-columns:1fr}.proposed-courses{padding:20px}.course-column{padding:23px}.record-card,.teaching-card{padding:24px}.experience,.teaching-section,.course-section{padding-bottom:72px}}
