@@ -32,3 +32,16 @@
 .proposed-grid p{font-size:.9rem;line-height:1.7;color:#566d78;margin:0}
 @media(max-width:1000px){.record-grid,.teaching-grid{grid-template-columns:1fr 1fr}.site-nav nav{gap:16px;font-size:.82rem}}
 @media(max-width:740px){.record-grid,.teaching-grid,.readiness-grid,.proposed-grid{grid-template-columns:1fr}.proposed-courses{padding:20px}.course-column{padding:23px}.record-card,.teaching-card{padding:24px}.experience,.teaching-section,.course-section{padding-bottom:72px}}
+
+/* Text-first academic presentation: decorative illustrations removed. */
+.hero-grid--text-only{display:block;min-height:0;max-width:920px;margin-left:auto;margin-right:auto;padding-bottom:8px}
+.hero-grid--text-only .hero-copy{max-width:920px}
+.hero-grid--text-only .hero-copy h1{max-width:900px}
+.hero-grid--text-only .hero-subtitle{max-width:770px}
+.featured-panel--text-only{grid-template-columns:1.1fr .9fr}
+.featured-panel--text-only .featured-right--text{align-items:stretch;justify-content:center;gap:10px;padding:42px 36px;background:#174052}
+.featured-right--text .text-evidence-label{color:#a5e7db;font-size:.72rem;font-weight:800;letter-spacing:.13em;margin:0}
+.featured-right--text h3{font-family:Manrope,sans-serif;font-size:1.45rem;line-height:1.35;letter-spacing:-.04em;margin:6px 0}
+.featured-right--text p{font-size:.94rem;line-height:1.75;color:#d4e4e8;margin:2px 0 9px}
+.featured-right--text .scope-note{border-top:1px solid #ffffff32;padding-top:15px;margin-top:9px;font-size:.82rem;color:#aacfd2}
+@media(max-width:740px){.hero-grid--text-only{padding-bottom:5px}.featured-panel--text-only{grid-template-columns:1fr}.featured-panel--text-only .featured-right--text{min-height:0;padding:30px 26px}}
