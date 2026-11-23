@@ -24,26 +24,14 @@
 
   <main id="main">
     <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-grid">
+      <div class="hero-grid hero-grid--text-only">
         <div class="hero-copy">
           <p class="eyebrow"><span class="eyebrow-line"></span> CHEMICAL &amp; ENVIRONMENTAL ENGINEERING</p>
           <h1 id="hero-title">Connecting chemical engineering fundamentals to <em>better treatment processes.</em></h1>
           <p class="hero-subtitle">Minkyu Park, Ph.D. — Research, teaching and mentorship at the intersection of transport phenomena, chemical reaction engineering, sustainable separations, quantitative monitoring and responsible Python/AI.</p>
           <div class="hero-actions"><a class="primary-cta" href="#selected-work">View 20 professional works <span aria-hidden="true">↗</span></a><a class="secondary-cta" href="#featured">Research highlights <span aria-hidden="true">↓</span></a></div>
         </div>
-        <div class="science-art" aria-hidden="true">
-          <div class="art-label">FROM MEASUREMENT TO MECHANISM</div>
-          <svg viewBox="0 0 430 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Stylized data and chemical kinetics visualization">
-            <defs><linearGradient id="line" x1="0" x2="1"><stop offset="0" stop-color="#83d7d1" stop-opacity=".2"/><stop offset="1" stop-color="#69ded1" stop-opacity=".95"/></linearGradient></defs>
-            <circle cx="215" cy="215" r="155" fill="none" stroke="#ffffff" stroke-opacity=".09"/><circle cx="215" cy="215" r="105" fill="none" stroke="#ffffff" stroke-opacity=".12" stroke-dasharray="3 9"/><circle cx="215" cy="215" r="58" fill="none" stroke="#7ae3d5" stroke-opacity=".4"/>
-            <path d="M 37 292 C 90 265,95 300,131 235 S 211 150,253 182 S 338 238,395 120" fill="none" stroke="url(#line)" stroke-width="4" stroke-linecap="round"/>
-            <path d="M 37 337 C 108 311,119 278,154 289 S 245 334,280 275 S 348 270,395 245" fill="none" stroke="#69b6dc" stroke-opacity=".72" stroke-width="2.5"/>
-            <g fill="#86dccc"><circle cx="131" cy="235" r="6"/><circle cx="253" cy="182" r="7"/><circle cx="395" cy="120" r="6"/></g>
-            <circle cx="215" cy="215" r="20" fill="#86dccc"/><circle cx="215" cy="215" r="8" fill="#15354c"/>
-            <g stroke="#8cdef2" stroke-width="2" opacity=".65"><line x1="202" y1="200" x2="171" y2="161"/><line x1="229" y1="200" x2="255" y2="159"/><line x1="232" y1="228" x2="278" y2="261"/></g><g fill="#8cdef2"><circle cx="171" cy="161" r="5"/><circle cx="255" cy="159" r="5"/><circle cx="278" cy="261" r="5"/></g>
-          </svg>
-          <div class="art-foot"><span>O<sub>3</sub> + •OH</span><span>UV<sub>254</sub> · fluorescence</span><span>validated prediction</span></div>
-        </div>
+
       </div>
       <div class="hero-metrics" aria-label="Academic profile summary"><div><strong>46</strong><span>Peer-reviewed journal articles</span></div><div><strong>20</strong><span>Selected portfolio works</span></div><div><strong>6</strong><span>Sponsored projects as PI / Co-PI</span></div></div>
     </section>
@@ -64,7 +52,12 @@
 
     <section class="featured content-width" id="featured">
       <p class="section-kicker">03 / HIGHLIGHTED PUBLICATION</p>
-      <div class="featured-panel"><div class="featured-left"><span class="small-caption">WATER RESEARCH · 2017</span><h2>Predicting treatment through the chemistry behind the measurements.</h2><p>My 2017 paper developed indicator and spectroscopic surrogate models from second-order ozone and hydroxyl-radical reaction kinetics. Instead of relying solely on empirical sensor correlations, the models linked observable measurements to contaminant attenuation mechanisms.</p><p>The study examined meprobamate, UV absorbance at 254 nm, and total fluorescence, reporting R² above 0.80 across the tested trace organics and wastewater matrices. This published foundation motivates future kinetic–AI models that adapt to changing water chemistry while retaining physical constraints.</p><a href="https://doi.org/10.1016/j.watres.2017.04.024" target="_blank" rel="noopener noreferrer">Read the paper's DOI record <span aria-hidden="true">↗</span></a></div><div class="featured-right"><span>CHEMICAL KINETICS → SENSOR SURROGATES</span><div class="formula">C(t) / C<sub>0</sub><span>= f ( k<sub>O₃</sub>, k<sub>•OH</sub>, exposure )</span></div><div class="line-graph"><div class="graph-bar" style="--i:0;height:87%"></div><div class="graph-bar" style="--i:1;height:69%"></div><div class="graph-bar" style="--i:2;height:52%"></div><div class="graph-bar" style="--i:3;height:36%"></div><div class="graph-bar" style="--i:4;height:25%"></div><div class="graph-bar" style="--i:5;height:15%"></div></div><small>Conceptual illustration · not experimental data</small></div></div>
+      <div class="featured-panel featured-panel--text-only"><div class="featured-left"><span class="small-caption">WATER RESEARCH · 2017</span><h2>Predicting treatment through the chemistry behind the measurements.</h2><p>My 2017 paper developed indicator and spectroscopic surrogate models from second-order ozone and hydroxyl-radical reaction kinetics. Instead of relying solely on empirical sensor correlations, the models linked observable measurements to contaminant attenuation mechanisms.</p><p>The study examined meprobamate, UV absorbance at 254 nm, and total fluorescence, reporting R² above 0.80 across the tested trace organics and wastewater matrices. This published foundation motivates future kinetic–AI models that adapt to changing water chemistry while retaining physical constraints.</p><a href="https://doi.org/10.1016/j.watres.2017.04.024" target="_blank" rel="noopener noreferrer">Read the paper's DOI record <span aria-hidden="true">↗</span></a></div><div class="featured-right featured-right--text">
+  <p class="text-evidence-label">METHOD AND FINDINGS</p>
+  <h3>From reaction kinetics to monitoring signals</h3>
+  <p>Second-order reactions with molecular ozone and hydroxyl radicals provided a chemical basis for relating observable surrogate changes to trace-organic attenuation.</p>
+  <p>Meprobamate, UV absorbance at 254 nm, and total fluorescence were examined as indicator or surrogate measurements. The study reported model R² values above 0.80 for the tested contaminants and wastewater samples.</p>
+  <p class="scope-note">Published result (2017). AI-assisted parameter adaptation and uncertainty-aware monitoring are proposed future extensions.</p></div></div>
     </section>
 
     
