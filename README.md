@@ -1,31 +1,33 @@
-# Minkyu Park — Academic Research Portfolio
+# Minkyu Park — Academic Research & Teaching Portfolio
 
-A static, responsive GitHub Pages website containing **20 selected coauthored professional research works** for a Cal Poly Pomona faculty application.
+Public GitHub Pages portfolio supporting the Cal Poly Pomona Chemical and Materials Engineering faculty application.
 
-## Contents
+**Website:** https://envmp.github.io/academic-portfolio/
 
-- `index.html` — portfolio homepage and 20 selected publication records
-- `styles.css` — responsive styling
-- `script.js` — category filtering and search
-- `favicon.svg` — site icon
-- `.nojekyll` — instructs GitHub Pages to serve this static site without Jekyll processing
+## Source-of-truth documents (final application PDFs)
 
-No build tools, paid hosting, authentication, or GitHub Actions workflow is required. No publisher PDF files are reproduced.
+- `CV_MinkyuPark.pdf` — 46 peer-reviewed journal articles; verified academic appointments, research funding, professional experience, teaching/mentorship and technical expertise.
+- `Minkyu_Park_Resarch_Statement.pdf` — three research directions: selective adsorption/reactive interfaces, energy- and resource-efficient hybrid separation, physics-informed sensing/chemometrics/AI.
+- `Minkyu_Park_Teaching_Philosophy.pdf` — past TA and guest-lecture experience, undergraduate mentorship, experiential learning, Python and responsible AI.
+- `Minkyu_Park_CPP_Courses.pdf` — CPP courses in categories A/B and four proposed category C electives.
 
-## Publish to GitHub Pages
+The PDFs above were provided as authoritative application references. They are **not uploaded to this public site** to avoid sharing private CV contact details and to keep the website focused on its public portfolio.
 
-1. The files are uploaded to the public `EnvMP/academic-portfolio` repository on branch `main`.
-2. In the repository, open **Settings → Pages** and set **Source: Deploy from a branch**, **Branch: main**, **Folder: /(root)**, then Save.
-3. Once deployment is successful, open the **Visit site** link. Expected website: https://envmp.github.io/academic-portfolio/
-4. After verifying the website, paste its live link into the Cal Poly Pomona portfolio field.
+## Website content
 
-GitHub Pages documentation: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+- Academic summary and the three research directions (clearly marked as proposed where appropriate).
+- Publication record: 46 peer-reviewed articles in final CV; 20 selected, coauthored works with DOI links on this site.
+- PI/Co-PI responsibility for six sponsored projects with combined **project budgets** of $1,083,853 (not an individual award).
+- Documented University of Arizona teaching and mentorship, including CHEE 582 TA, CHEE 204 guest lecture and Austin D. Ziska mentoring example.
+- Prepared-to-teach courses and four proposed Python / AI electives, explicitly labelled as proposals, not approved CPP courses.
+- Independent machine-learning software development described as a personal project, not a university appointment or water-treatment deployment.
 
-## Editorial notes
+The retracted article *Genotoxicity assay and potential byproduct identification during different UV-based water treatment processes* is not in the portfolio. A separate publication by Ziska et al. (2016) has a 2026 erratum noted in the supplied CV; it should not be confused with the retracted article.
 
-- Works are selected from the candidate's provided academic CV and 20-sample index.
-- The retracted Ai Zhang et al. (2019) paper has been excluded.
-- The website avoids publishing the candidate's personal mobile phone number, street address, and email.
-- Publisher DOI links may not provide free full-text access. Check each DOI and authorship listing before submitting the site.
-- Short descriptions are editorial summaries derived from paper titles, except for the 2017 kinetic-surrogate study, which was read in full from the supplied PDF.
-- This website has not been published solely by preparing these files.
+## Editing and deployment
+
+Site files: `index.html`, `styles.css`, `script.js`, `favicon.svg`, `.nojekyll`. The site requires no build tool or third-party JavaScript framework.
+
+GitHub repository **Settings → Pages → Deploy from a branch → main / (root)**.
+
+Academic links resolve to DOI pages; copyright-protected publisher PDFs are not mirrored. No phone number or email address appears on the public site. Proposed activities are identified as future plans rather than completed accomplishments.
